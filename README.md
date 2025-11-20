@@ -1,24 +1,63 @@
-# Training Institute - Production-ready scaffold (frontend + backend + Postgres)
+# Modern E-Learning Website (React + Tailwind CSS)
 
-What this scaffold provides:
-- Frontend: Vite + React + Tailwind (Dockerfile included)
-- Backend: Node.js + Express, JWT auth, PostgreSQL (Dockerized)
-- Stripe checkout integration placeholder (requires STRIPE_SECRET)
-- Docker Compose to run everything: Postgres, backend, frontend
-- Env files and setup to get started quickly
+A modern, responsive and fully-featured E-Learning / Training Institute Platform built using React, Tailwind CSS, and React Router.
+This project includes pages like Courses, About, Blog, Instructors, FAQ, Testimonials, User Authentication, and a clean UI similar to top EdTech platforms.
 
-How to run (local dev using Docker Compose)
-1. Ensure Docker and Docker Compose are installed.
-2. Copy `.env` values in backend/.env and (optionally) frontend/.env (STRIPE_SECRET, JWT_SECRET).
-3. From project root run:
-   docker compose up --build
-4. Frontend will be available at http://localhost:3000 and backend at http://localhost:4000
+🚀 Features
+⭐ Core Features
 
-Notes:
-- This is a scaffold with minimal but functional backend. For production hardening:
-  - Use HTTPS / TLS, secure secrets with Vault or environment variables in your host.
-  - Configure CORS origin restrictions.
-  - Use a reverse proxy (NGINX) and set proper caching headers.
-  - Set up database migrations (Flyway, Liquibase, Prisma, Knex).
-  - Add logging (Winston), monitoring (Prometheus), and CI/CD (GitHub Actions).
-  - Use a managed Postgres (RDS / Cloud SQL) in production.
+🏠 Beautiful & responsive Home page
+
+🎓 Courses listing and Course Detail pages
+
+👨‍🏫 Instructors section
+
+📝 Blog section
+
+📞 Contact page
+
+ℹ️ About us page
+
+❓ FAQ page
+
+⭐ Testimonials page
+
+🔐 Authentication
+
+Login page
+
+Register page
+
+Dashboard link (once logged in)
+
+📱 UI/UX
+
+Fully responsive Navbar with mobile menu
+
+Elegant Footer
+
+Smooth animations & icons using react-icons
+
+Modern Tailwind-based design
+
+🛠 Tech Stack
+
+# Frontend:
+
+React
+
+React Router
+
+Tailwind CSS
+
+React Icons
+
+# State & Auth:
+
+React Context API (AuthProvider)
+
+# Tools:
+
+Vite (or CRA, depending on your setup)
+
+Git & GitHub
